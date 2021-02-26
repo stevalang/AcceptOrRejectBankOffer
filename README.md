@@ -27,10 +27,8 @@ The classification goal is to predict if the client will subscribe (yes/no) a te
 Categorical Variables:
 I first start the exploratory analysis of the categorical variables and see what are the categories and are there any missing values for these categories. I created few the bar graphs.
 
-![plot](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/age_frequency.png)
 ![plot](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/hist_num_cols.png)
-
-
+![plot](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/age_frequency.png)
 
 
 ## Hypothesis Testing
