@@ -43,8 +43,19 @@ I first start the exploratory analysis of the categorical variables and see what
 ## Hypothesis Testing
 Hypothesis testing was conducted to determine whether the clients between age 40-50 are more likely to subscribe for a term deposit based on the marketing campain compare to those in age bracket of 50-60.
 
-H_0 = There is no difference between clients in age group 40-50 and those in 50-60 for subscribing a term deposit.
-H_1 = There is a significant difference between the acceptance rate of a term deposit between custumers in age group 40-50 compare to those in age group 50-60.
+Null Hypothesis: There is no difference between clients in age group 40-50 and those in 50-60 for subscribing a term deposit.
+
+Alternative Hypothesis: There is a significant difference between the acceptance rate of a term deposit between custumers in age group 40-50 compare to those in age group 50-60.
+
+Assumptions:
+Each phone call is an independent event.
+
+Two Samples:
+Clients between 40-50 years old
+Clients between 50-60 years old
+
+
+Using both Two Sample T-Test and Mann-Whitney U-Test.
 
 #### Example Hypothesis
 
