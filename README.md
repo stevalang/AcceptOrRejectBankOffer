@@ -8,12 +8,6 @@ Investigation if the client’s offer for term deposit will be accepted or rejec
 I found the dataset on https://archive.ics.uci.edu/ml/datasets/Bank+Marketing. (from May 2008 to November 2010)
 The variable name, the data type and a brief description of each variable is found in the table below:
 
-### Exploratory Data Analysis
-### Conclusion
-### Next Steps
-
-
-
 
 ### Problem
 
@@ -28,14 +22,13 @@ Dataframe contains:
 ### Goal:
 The classification goal is to predict if the client will subscribe (yes/no) a term deposit.
 
-### EDA
+### Exploratory Data Analysis
 
 Categorical Variables:
 I first start the exploratory analysis of the categorical variables and see what are the categories and are there any missing values for these categories. I created few the bar graphs.
 
 ![plot](/Users/stevalang/Galvanize/0002_capstones/capstone1/accept_reject_bank_offer/images/hist_num_cols.png)
 ![plot](/Users/stevalang/Galvanize/0002_capstones/capstone1/accept_reject_bank_offer/images/age_frequency.png)
-
 
 
 
@@ -55,19 +48,13 @@ Clients between 40-50 years old
 Clients between 50-60 years old
 
 
-Using both Two Sample T-Test and Mann-Whitney U-Test.
-
-#### Example Hypothesis
-
-H0: That recipe category does not influence the saturated fat calories to total calories ratio.
-HA: That the recipes in the 'Dessert' category will have a different saturated fat calories to total calories ratio than the 'Main Dish' category.
-
-Test: A two-tailed t-test was chosen, since we are interested in both ends of the distribution.
+Test: A two-tailed Welch's t-test was chosen, since we are interested in both ends of the distribution.
 Alpha: A significance level of 0.05 was chosen for this test, since this is generally standard and the outcome of this hypothesis testing is not.
 
 
-For this hypothesis test, the t-statistic is 16.417905633524033, and the p value is 2.1130871989165067e-59.
-Since the p-value is less than the significance level 0.05, we can reject the null hypothesis that recipe category does not affect the saturated fat calories to total calories ratio.
+For this hypothesis test:
+Degrees of Freedom for Welch's Test: 5258.58
+p-value: 0.9890
 
 
 
@@ -77,6 +64,8 @@ Since the p-value is less than the significance level 0.05, we can reject the nu
 * Matplotlib
 * Seaborn
 
+### Conclusion
+### Next Steps
 
 ### Citations
 This dataset is public available for research. The details are described in [Moro et al., 2011].
