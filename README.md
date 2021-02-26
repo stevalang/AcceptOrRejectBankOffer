@@ -1,8 +1,5 @@
-### Destiption:
-Predict if the client will subscribe to direct marketing campaign for a banking institution Problem Statement: The data is related to direct marketing campaigns of a Portuguese banking institution. Predict if the client will subscribe to a term deposit based on a marketing campaign-Data Set Download: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing. Data Set Information: The data is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed. There are four datasets: 1. bank-additional-full.csv with all examples (41188) and 20 inputs, ordered by date (from May 2008 to November 2010), very close to the data analyzed in [Moro et al., 2014] 2. bank-additional.csv with 10% of the examples (4119), randomly selected from 1), and 20 inputs. 3. bank-full.csv with all examples and 17 inputs, ordered by date (older version of this dataset with fewer inputs). 4. bank.csv with 10% of the examples and 17 inputs, randomly selected from 3 (older version of this dataset with fewer inputs). The smallest datasets are provided to test more computationally demanding machine learning algorithms Goal:- The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
-
 ### Overview
-Investigation if the client’s offer for term deposit will be accepted or rejected based on provided information.
+Predict if the client will subscribe to direct marketing campaign for a banking institution Problem Statement: The data is related to direct marketing campaigns of a Portuguese banking institution. Predict if the client will subscribe to a term deposit based on a marketing campaign-Data Set Download: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing. Data Set Information: The data is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 ### Data
 I found the dataset on https://archive.ics.uci.edu/ml/datasets/Bank+Marketing. (from May 2008 to November 2010)
@@ -13,16 +10,13 @@ Dataframe contains:
 * 20 columns (information for each client)
 
 ### Problem
-
 The data is related to direct marketing campaigns of a Portuguese banking institution. Predict if the client will subscribe to a term deposit based on a marketing campaign
 The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (‘yes’) or not (‘no’) subscribed.
 
-
 ### Goal:
-The classification goal is to predict if the client will subscribe (yes/no) a term deposit.
+Investigation if the client’s offer for term deposit will be accepted or rejected based on provided information.
 
 ### Exploratory Data Analysis
-
 Categorical Variables:
 I first start the exploratory analysis of the categorical variables and see what are the categories and are there any missing values for these categories. I created few the bar graphs.
 
@@ -30,7 +24,7 @@ I first start the exploratory analysis of the categorical variables and see what
 ![plot](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/age_frequency.png)
 
 
-## Hypothesis Testing
+### Hypothesis Testing
 Hypothesis testing was conducted to determine whether the clients between age 40-50 are more likely to subscribe for a term deposit based on the marketing campain compare to those in age bracket of 50-60.
 
 Null Hypothesis: There is no difference between clients in age group 40-50 and those in 50-60 for subscribing a term deposit.
