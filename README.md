@@ -4,7 +4,9 @@ Predict if the client will subscribe to direct marketing campaign for a banking 
 ### Data
 I found the dataset on https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
 The variable name, the data type and a brief description of each variable is found in the table below:
+
 ![table](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/dataframe.png)
+
 Dataframe contains:
 * 41188 rows (clients)
 * 20 columns (information for each client)
