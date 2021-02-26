@@ -5,6 +5,8 @@ Predict if the client will subscribe to direct marketing campaign for a banking 
 I found the dataset on https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
 The variable name, the data type and a brief description of each variable is found in the table below:
 
+![table](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/dataframe.png)
+
 Dataframe contains:
 * 41188 rows (clients)
 * 20 columns (information for each client)
@@ -51,10 +53,12 @@ Alpha: A significance level of 0.05 was chosen for this test, since this is gene
 ### Conclusion
 
 For this hypothesis test:
-Degrees of Freedom for Welch's Test: {}
-p-value: {}
+Difference in sample proportions: 0.01
+p-value for accepting term deposit frequency comparison: 0.01
+Welch Test Statistic: -2.29
+Degrees of Freedom for Welch's Test: 16886.80
 
-The p-values of welch's test is statistically significant (below the $\alpha$ threshold) so I reject the null hypothesis, which means that there is a difference between the two age groups.
+The p-values is statistically significant (below the alpha threshold) so I reject the null hypothesis, which means that there is a difference between the two age groups.
 
 
 
