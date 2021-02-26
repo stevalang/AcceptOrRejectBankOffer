@@ -42,12 +42,10 @@ Clients between 50-60 years old
 Test: A two-tailed Welch's t-test was chosen, since we are interested in both ends of the distribution.
 Alpha: A significance level of 0.05 was chosen for this test, since this is generally standard and the outcome of this hypothesis testing is not.
 
-
+### Conclusion
 For this hypothesis test:
 Degrees of Freedom for Welch's Test: 5258.58
 p-value: 0.9890
-
-
 
 ## Technologies Used
 * Numpy
@@ -55,8 +53,8 @@ p-value: 0.9890
 * Matplotlib
 * Seaborn
 
-### Conclusion
 ### Next Steps
+Create classification model to predict if the client will subscribe (yes/no) a term deposit.
 
 ### Citations
 This dataset is public available for research. The details are described in [Moro et al., 2011].
