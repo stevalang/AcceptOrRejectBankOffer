@@ -28,7 +28,7 @@ Categorical Variables:
 I first start the exploratory analysis of the categorical variables and see what are the categories and are there any missing values for these categories. I created few the bar graphs.
 
 ![plot](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/age_frequency.png)
-![plot](/Users/stevalang/Galvanize/0002_capstones/capstone1/accept_reject_bank_offer/images/age_frequency.png)
+![plot](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/hist_num_cols.png)
 
 
 
