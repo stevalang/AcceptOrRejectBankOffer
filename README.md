@@ -8,15 +8,14 @@ Investigation if the client’s offer for term deposit will be accepted or rejec
 I found the dataset on https://archive.ics.uci.edu/ml/datasets/Bank+Marketing. (from May 2008 to November 2010)
 The variable name, the data type and a brief description of each variable is found in the table below:
 
+Dataframe contains:
+* 41188 rows (clients)
+* 20 columns (information for each client)
 
 ### Problem
 
 The data is related to direct marketing campaigns of a Portuguese banking institution. Predict if the client will subscribe to a term deposit based on a marketing campaign
 The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (‘yes’) or not (‘no’) subscribed.
-
-Dataframe contains:
-* 41188 rows (clients)
-* 20 columns (information for each client)
 
 
 ### Goal:
