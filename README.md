@@ -2,7 +2,7 @@
 Predict if the client will subscribe to direct marketing campaign for a banking institution Problem Statement: The data is related to direct marketing campaigns of a Portuguese banking institution. Predict if the client will subscribe to a term deposit based on a marketing campaign-Data Set Download: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing. Data Set Information: The data is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 ### Data
-I found the dataset on https://archive.ics.uci.edu/ml/datasets/Bank+Marketing. (from May 2008 to November 2010)
+I found the dataset on https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
 The variable name, the data type and a brief description of each variable is found in the table below:
 
 Dataframe contains:
