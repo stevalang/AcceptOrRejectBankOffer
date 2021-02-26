@@ -22,21 +22,21 @@ Investigation if the client’s offer for term deposit will be accepted or rejec
 Categorical Variables:
 I first start the exploratory analysis of the categorical variables and see what are the categories and are there any missing values for these categories. I created few the bar graphs.
 
-![plot](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/hist_num_cols.png)
-![plot](https://github.com/stevalang/AcceptOrRejectBankOffer/blob/master/images/age_frequency.png)
-
+![plot](images/hist_num_cols.png)
+![plot](images/age_frequency.png)
+![plot](images/age_frequency_.png)
 
 ### Hypothesis Testing
 **Scientific question:**
 Hypothesis testing was conducted to determine whether the clients between age 40-50 are more likely to subscribe for a term deposit based on the marketing campain compare to those in age bracket of 50-60.
 
-**Null Hypothesis:**  
-There is no difference between clients in age group 40-50 and those in 50-60 for subscribing a term deposit.
+**Null Hypothesis:**
+There is no difference between the acceptance rate of a term deposit between customers in age group 40-50 compare to those in age group 50-60.
 
-**Alternative Hypothesis:** 
+**Alternative Hypothesis:**
 There is a significant difference between the acceptance rate of a term deposit between custumers in age group 40-50 compare to those in age group 50-60.
 
-**Alpha level:** 
+**Alpha level:**
 The significance level that will be used for this test is $\alpha = 0.05$.
 
 **Assumptions:**
@@ -47,23 +47,23 @@ Clients between 40-50 years old
 Clients between 50-60 years old
 
 
-Test: A two-tailed Welch's t-test was chosen, since we are interested in both ends of the distribution.
-Alpha: A significance level of 0.05 was chosen for this test, since this is generally standard and the outcome of this hypothesis testing is not.
+Test: A two-tailed t-test was chosen, since we are interested in both ends of the distribution.
+Alpha: A significance level of  $\alpha =0.05 was chosen for this test, since this is generally standard and the outcome of this hypothesis testing is not.
+
 
 ### Conclusion
+*ttest results: statistic=-0.5162022150562433, pvalue=0.6057188723339183
 
-For this hypothesis test:
+*Difference in sample proportions: -0.00214
 
-Difference in sample proportions: 0.01
+*p-value for accepting term deposit frequency comparison: 0.70
 
-p-value for accepting term deposit frequency comparison: 0.01
+*Welch Test Statistic: -0.52
 
-Welch Test Statistic: -2.29
+*Degrees of Freedom for Welch's Test: 18005.67
 
-Degrees of Freedom for Welch's Test: 16886.80
 
-The p-values is statistically significant (below the alpha threshold) so I reject the null hypothesis, which means that there is a difference between the two age groups.
-
+For this hypothesis test we have pvalue=0.61 which is above our $\alpha =0.05 so I fail to reject the null hypothesis, which means that there isn't a statistically significant difference between the two age groups.
 
 
 ## Technologies Used
