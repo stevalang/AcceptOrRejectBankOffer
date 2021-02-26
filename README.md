@@ -53,6 +53,7 @@ Alpha: A significance level of 0.05 was chosen for this test, since this is gene
 ### Conclusion
 
 For this hypothesis test:
+
 Difference in sample proportions: 0.01
 p-value for accepting term deposit frequency comparison: 0.01
 Welch Test Statistic: -2.29
