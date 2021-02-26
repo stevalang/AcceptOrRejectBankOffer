@@ -25,16 +25,22 @@ I first start the exploratory analysis of the categorical variables and see what
 
 
 ### Hypothesis Testing
+**Scientific question:**
 Hypothesis testing was conducted to determine whether the clients between age 40-50 are more likely to subscribe for a term deposit based on the marketing campain compare to those in age bracket of 50-60.
 
-Null Hypothesis: There is no difference between clients in age group 40-50 and those in 50-60 for subscribing a term deposit.
+**Null Hypothesis:**  
+There is no difference between clients in age group 40-50 and those in 50-60 for subscribing a term deposit.
 
-Alternative Hypothesis: There is a significant difference between the acceptance rate of a term deposit between custumers in age group 40-50 compare to those in age group 50-60.
+**Alternative Hypothesis:** 
+There is a significant difference between the acceptance rate of a term deposit between custumers in age group 40-50 compare to those in age group 50-60.
 
-Assumptions:
+**Alpha level:** 
+The significance level that will be used for this test is $\alpha = 0.05$.
+
+**Assumptions:**
 Each phone call is an independent event.
 
-Two Samples:
+**Two Samples:**
 Clients between 40-50 years old
 Clients between 50-60 years old
 
@@ -43,9 +49,14 @@ Test: A two-tailed Welch's t-test was chosen, since we are interested in both en
 Alpha: A significance level of 0.05 was chosen for this test, since this is generally standard and the outcome of this hypothesis testing is not.
 
 ### Conclusion
+
 For this hypothesis test:
-Degrees of Freedom for Welch's Test: 5258.58
-p-value: 0.9890
+Degrees of Freedom for Welch's Test: {}
+p-value: {}
+
+The p-values of welch's test is statistically significant (below the $\alpha$ threshold) so I reject the null hypothesis, which means that there is a difference between the two age groups.
+
+
 
 ## Technologies Used
 * Numpy
