@@ -47,12 +47,11 @@ Clients between 40-50 years old
 Clients between 50-60 years old
 
 
-Test: A two-tailed t-test was chosen, since we are interested in both ends of the distribution.
+Test: A two-tailed z-test was chosen, since we are interested in both ends of the distribution.
 Alpha: A significance level of  $\alpha =0.05 was chosen for this test, since this is generally standard and the outcome of this hypothesis testing is not.
 
 
 ### Conclusion
-*ttest results: statistic=-0.5162022150562433, pvalue=0.6057188723339183
 
 *Difference in sample proportions: -0.00214
 
@@ -63,7 +62,7 @@ Alpha: A significance level of  $\alpha =0.05 was chosen for this test, since th
 *Degrees of Freedom for Welch's Test: 18005.67
 
 
-For this hypothesis test we have pvalue=0.61 which is above our $\alpha =0.05 so I fail to reject the null hypothesis, which means that there isn't a statistically significant difference between the two age groups.
+For this hypothesis test we have pvalue=0.70 which is above our $\alpha =0.05 so I fail to reject the null hypothesis, which means that there isn't a statistically significant difference between the two age groups.
 
 
 ## Technologies Used
